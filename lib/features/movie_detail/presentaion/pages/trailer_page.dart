@@ -34,6 +34,7 @@ class _TrailerPageState extends State<TrailerPage> {
         enableCaption: true,
       ),
     )..addListener(listener);
+
     SystemChrome.setPreferredOrientations([DeviceOrientation.landscapeRight]);
   }
 
@@ -58,9 +59,11 @@ class _TrailerPageState extends State<TrailerPage> {
   @override
   Widget build(BuildContext context) {
     return YoutubePlayerBuilder(
-      onExitFullScreen: () {
-        SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
-        Navigator.pop(context);
+      onExitFullScreen: () async {
+        await Future.delayed(const Duration(seconds: 2), () {
+          SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+          Navigator.pop(context);
+        });
       },
       player: YoutubePlayer(
         controller: _controller,
