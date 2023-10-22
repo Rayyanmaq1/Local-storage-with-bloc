@@ -60,7 +60,7 @@ class _TrailerPageState extends State<TrailerPage> {
   Widget build(BuildContext context) {
     return YoutubePlayerBuilder(
       onExitFullScreen: () async {
-        await Future.delayed(const Duration(seconds: 2), () {
+        await Future.delayed(const Duration(seconds: 4), () {
           SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
           Navigator.pop(context);
         });
