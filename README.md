@@ -78,6 +78,6 @@ We would like to thank [Movie db API](https://developer.themoviedb.org/reference
 ## Further Resources
 
 - [Flutter Documentation](https://flutter.dev/docs)
-- [News API Documentation]((https://developer.themoviedb.org/reference/intro/getting-started))
+- [Movie Database API Documentation](https://developer.themoviedb.org/reference/intro/getting-started))
 - [Flutter Community](https://flutter.dev/community)
 - [Awesome Flutter](https://github.com/Solido/awesome-flutter)
