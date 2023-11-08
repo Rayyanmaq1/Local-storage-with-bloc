@@ -44,7 +44,7 @@ To get started with the project, follow these steps:
 1. Clone the repository to your local machine using Git.
 
 ```bash
-git clone https://github.com/your-username/flutter-news-app.
+git clone https://github.com/Rayyanmaq1/Local-storage-with-bloc.
 ```
 
 2. Install the required dependencies by running the following command in the project root directory:
@@ -73,11 +73,11 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-We would like to thank [News API](https://newsapi.org/) for providing the news data used in this app.
+We would like to thank [Movie db API](https://developer.themoviedb.org/reference/intro/getting-started) for providing the news data used in this app.
 
 ## Further Resources
 
 - [Flutter Documentation](https://flutter.dev/docs)
-- [News API Documentation]([https://newsapi.org/docs](https://developer.themoviedb.org/reference/intro/getting-started))
+- [News API Documentation]((https://developer.themoviedb.org/reference/intro/getting-started))
 - [Flutter Community](https://flutter.dev/community)
 - [Awesome Flutter](https://github.com/Solido/awesome-flutter)
